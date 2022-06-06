@@ -1,4 +1,5 @@
 // code by coolguy284 to add environment variables from the .env file
+var fs = require('fs');
 try {
   fs.readFileSync('.env').toString().split(/\r?\n/g).forEach(entry => {
     if (entry[0] == '#') return;
