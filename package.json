@@ -1,0 +1,26 @@
+{
+  "name": "8-ball-bot",
+  "version": "1.0.0",
+  "description": "Very stupid 8-ball bot for discord haha funny sus amogus",
+  "main": "8-ball.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clayboy, Intraflux, coolguy284",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "E"
+  },
+  "keywords": [
+    "8ball",
+    "nodejs",
+    "discord.js",
+    "memes",
+    "sus"
+  ]
+}
