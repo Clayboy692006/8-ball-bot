@@ -139,3 +139,7 @@ bot.on('ready', function() {
 });
 
 bot.login(process.env.TOKEN);
+
+process.on('uncaughtException', err => {
+  console.error('Uncaught exception:\n' + err?.stack);
+});
